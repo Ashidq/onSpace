@@ -1,0 +1,87 @@
+body {
+    background-image: url('img/background.png'); /* Ganti dengan path gambar Anda */
+    background-size: cover; /* Agar gambar menutupi seluruh area */
+    background-position: center; /* Posisi gambar di tengah */
+    background-repeat: no-repeat; /* Agar gambar tidak diulang */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+  .container {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    height: 520px;
+  }
+
+  p {
+    color: #003EA8;
+  }
+  
+  .form-container {
+    text-align: center;
+  }
+
+  .form-container img {
+    margin-top: 10px;
+  }
+  
+  .form-control {
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  form button {
+    background-color: #007bff;
+    color: #fff;
+    margin: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 80%;
+  }
+  
+  form button:hover {
+    background-color: #0069d9;
+  }
+
+  .social-container {
+    border-radius: 15px;
+    text-align: center;
+    background: linear-gradient(to bottom, #A2C4FF, #FFFFFF);
+    height: 100px;
+  }
+
+  .social-login div p {
+    padding-top: 20px;
+    font-size: 12px;
+    color: #000000;
+  }
+
+  .social-container a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .social-login img {
+    height: 30px;
+    padding: 5px 5px;
+  }
+
+  .login {
+    color: #000000;
+  }
+
+  .login a:hover {
+    text-decoration: underline;
+  }
+  
